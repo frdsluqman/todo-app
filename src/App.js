@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <div className="flex flex-col mx-auto mt-[50px] p-8 bg-[#ADEFD1FF] w-1/2 rounded-lg">
+      <div className="flex flex-col mx-auto mt-[50px] p-8 bg-[#f4a896] w-1/2 rounded-lg">
         <h1 className="text-center font-Poppins text-2xl font-semibold">
           Todo List App
         </h1>

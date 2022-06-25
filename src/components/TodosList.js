@@ -22,9 +22,9 @@ const TodosList = ({ todos, setTodos, setEdit }) => {
     setEdit(findTodo);
   };
 
-  const style1 = { color: "#00203fff", fontSize: "1.5em" };
-  const style2 = { color: "#00203fff", fontSize: "1.5em" };
-  const style3 = { color: "#00203fff", fontSize: "1.7em" };
+  const style1 = { color: "#358597", fontSize: "1.5em" };
+  const style2 = { color: "#358597", fontSize: "1.5em" };
+  const style3 = { color: "#358597", fontSize: "1.7em" };
 
   return (
     <>

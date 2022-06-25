@@ -44,14 +44,14 @@ const Form = ({ input, setInput, todos, setTodos, edit, setEdit }) => {
         <input
           type="text"
           placeholder="Hal yang akan dilakukan"
-          className="text-sm font-Poppins w-full p-4 my-3 outline-none text-[#ADEFD1FF] border-3 border-[#00203fff] rounded-lg bg-[#00203fff]"
+          className="text-sm font-Poppins w-full p-4 my-3 outline-none text-[#f4a896] border-3 border-[#358597] rounded-lg bg-[#358597]"
           value={input}
           required
           onChange={handleChange}
         />
         <button
           type="submit"
-          className="hover:bg-[#00203fff] hover:text-[#ADEFD1FF] text-[#00203fff] font-bold font-Poppins my-2 py-3 px-5 rounded-lg ease-in duration-200 border-2 border-[#00203fff]"
+          className="hover:bg-[#358597] hover:text-[#f4a896] text-[#358597] font-bold font-Poppins my-2 py-3 px-5 rounded-lg ease-in duration-200 border-2 border-[#358597]"
         >
           {edit ? "Update" : "Submit"}
         </button>
